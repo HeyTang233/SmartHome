@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kongzhi</class>
+ <widget class="QDialog" name="Kongzhi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>温度:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="wd">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>燃气:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="rq">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>湿度:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="sd">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>50</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>PM2.5:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="pm25">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>光照:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="gz">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>80</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>气压:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="qy">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_8">
+    <item>
+     <widget class="QLabel" name="label_15">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>烟雾:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="yw">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_8">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>110</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_9">
+    <item>
+     <widget class="QLabel" name="label_17">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>CO²:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="co2">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_10">
+    <item>
+     <widget class="QLabel" name="label_19">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>人体:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="rthw">
+      <property name="font">
+       <font>
+        <family>文泉驿微米黑</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="BJD">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>10</y>
+     <width>51</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="set.qrc">
+     <normaloff>:/imges/lamp1.png</normaloff>
+     <normalon>:/imges/lamp2.png</normalon>:/imges/lamp1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>666</width>
+     <height>666</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>290</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>打开串口</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="server">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>320</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>连接服务器</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tubiao">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>380</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>打开图表</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>360</y>
+     <width>77</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>红外发射:</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="hongwai">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>390</y>
+     <width>181</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fashe">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>430</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>发射</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="server_3">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>350</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>监听</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>420</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Umpush</family>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="set.qrc">
+     <normaloff>:/imges/图片8.png</normaloff>:/imges/图片8.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>666</width>
+     <height>666</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/imges/0e711fd47ab124a4f0ab03b695ddc0b5.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rfid">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>320</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>无线开门</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chuanghu">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>打开窗户</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fengshan">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>380</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>打开风扇</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shedeng">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>410</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>打开射灯</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bjd">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>440</y>
+     <width>98</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>文泉驿微米黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>打开报警灯</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="wendulabel_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>110</y>
+     <width>21</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="shidulabel_4">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>110</y>
+     <width>21</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="yanwulabel_5">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>112</y>
+     <width>21</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>70</y>
+     <width>201</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>-164</x>
+      <y>8</y>
+      <width>371</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::VLine</enum>
+    </property>
+    <property name="text">
+     <string>___________________________________________________________________</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>132</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>101</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>61</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>30</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>27</x>
+      <y>152</y>
+      <width>31</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>温度</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>87</x>
+      <y>152</y>
+      <width>31</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>温度</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>147</x>
+      <y>152</y>
+      <width>31</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>光照</string>
+    </property>
+   </widget>
+   <zorder>label_8</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_14</zorder>
+  </widget>
+  <zorder>label_8</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>horizontalLayoutWidget_2</zorder>
+  <zorder>horizontalLayoutWidget_3</zorder>
+  <zorder>horizontalLayoutWidget_4</zorder>
+  <zorder>horizontalLayoutWidget_5</zorder>
+  <zorder>horizontalLayoutWidget_6</zorder>
+  <zorder>horizontalLayoutWidget_7</zorder>
+  <zorder>horizontalLayoutWidget_8</zorder>
+  <zorder>horizontalLayoutWidget_9</zorder>
+  <zorder>BJD</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>server</zorder>
+  <zorder>tubiao</zorder>
+  <zorder>label_20</zorder>
+  <zorder>hongwai</zorder>
+  <zorder>fashe</zorder>
+  <zorder>server_3</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>rfid</zorder>
+  <zorder>chuanghu</zorder>
+  <zorder>fengshan</zorder>
+  <zorder>shedeng</zorder>
+  <zorder>bjd</zorder>
+  <zorder>wendulabel_2</zorder>
+  <zorder>shidulabel_4</zorder>
+  <zorder>yanwulabel_5</zorder>
+  <zorder>widget</zorder>
+ </widget>
+ <resources>
+  <include location="set.qrc"/>
+ </resources>
+ <connections/>
+</ui>
